@@ -1,0 +1,65 @@
+/* @import url() */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+html {
+font-size: 62.5%;
+box-sizing: border-box;
+}
+
+body {
+font-family: sans-serif;
+color: #eee;
+background-color: lightblue;
+/* background-color: #60b347; */
+}
+
+main {
+    height: 65vh;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn {
+    border: none;
+    background-color: white;
+    color: #222;
+    font-size: 2rem;
+    font-family: inherit;
+    padding: 2rem 3rem;
+    cursor: pointer;
+}
+
+.pick-game, .reset{
+    /* background: none; */
+    border: 4px solid black;
+    border-radius: 25px;
+    font-family: inherit;
+    /* color: inherit; */
+    font-size: 2rem;
+    padding: 2.5rem;
+    width: 20rem;
+    text-align: center;
+    display: block;
+    margin-bottom: 3rem;
+}
+
+img{
+    top: 16.5rem;
+    height: 10rem;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+    margin: 20px 20px;
+}
